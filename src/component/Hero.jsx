@@ -30,17 +30,19 @@ const Hero = () => {
 
             </h2>
             <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+                <div className='bg-[#38bdf8] rounded-xl p-2 text-black'>
+                    <ButtonPrimary href="https://drive.google.com/file/d/1VkL2FKpY1iR8gmFEzIShXXEOlQGrpIwj/view?usp=drive_link" label="Download CV" icon="download" />
+                </div>
 
-            <ButtonOutline
+            {/* <ButtonOutline
             href="about"
             label='Scroll down'
-            icon="arrow_downward"/>
+            icon="arrow_downward"/> */}
             </div>
         </div>
        <div className="hidden lg:block">
             <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                <img src="/images/hero-banner.png"
+                <img src="/images/MyPhoto.jpeg"
                 width={656}
                 height={800}
                  alt="Ritika pandit"

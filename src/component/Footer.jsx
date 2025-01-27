@@ -13,10 +13,10 @@ const sitemap = [
       label: 'Work',
       href: '#work'
     },
-    {
-      label: 'Reviews',
-      href: '#reviews'
-    },
+    // {
+    //   label: 'Reviews',
+    //   href: '#reviews'
+    // },
     {
       label: 'Contact me',
       href: '#contact'
@@ -26,24 +26,24 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/RITIKAPANDIT/'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/ritika-pandit-a64b32254/'
     },
     {
       label: 'Twitter X',
-      href: 'https://x.com/codewithsadee_'
+      href: 'https://twitter.com/RitikaPanditttt'
     },
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/codewithsadee'
+      href: 'https://www.instagram.com/'
     },
-    {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
-    }
+    // {
+    //   label: 'CodePen',
+    //   href: 'https://codepen.io/codewithsadee'
+    // }
   ];                     
 const Footer = () => {
   return (

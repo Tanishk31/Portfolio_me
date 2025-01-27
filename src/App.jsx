@@ -11,7 +11,7 @@ import Hero from "./component/Hero";
 import About from "./component/About";
 import Skill from "./component/Skill";
 import Work from "./component/Work";
-import Review from "./component/Review";
+//import Review from "./component/Review";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 
@@ -44,7 +44,7 @@ const App = () => {
         <About />
         <Skill />
         <Work />
-        <Review />
+        {/* <Review /> */}
         <Contact />
       </main>
       <Footer />
