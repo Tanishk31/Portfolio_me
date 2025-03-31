@@ -1,13 +1,15 @@
 //COMPONENTS
 import ProjectCard from './ProjectCard';
+import visitor from '../images/visitor.jpg'
+import realEstate from '../images/realEstate.jpg'
 
 import React from 'react'
 const works = [
     {
-      imgSrc: '/images/JobPortal.jpg',
-      title: 'Job Portal App',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: visitor,
+      title: 'Visitor Management System',
+      tags: ['API', 'React', 'Node.js', 'mongoDB'],
+      projectLink: 'https://github.com/Tanishk31/visiting_management'
     },
     // {
     //   imgSrc: '/images/project-2.jpg',
@@ -22,10 +24,10 @@ const works = [
     //   projectLink: ''
     // },
     {
-      imgSrc: '/images/project-4.jpg',
+      imgSrc: realEstate,
       title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      tags: ['Node.js', 'React', 'TailWind CSS', 'Development'],
+      projectLink: 'https://github.com/Tanishk31/Real-Estate'
     },
     // {
     //   imgSrc: '/images/project-5.jpg',

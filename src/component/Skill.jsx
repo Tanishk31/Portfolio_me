@@ -1,47 +1,59 @@
 import React from 'react'
-
 import SkillCard from './SkillCard';
+import cssIcon from '../images/css3.svg'
+import jsIcon from '../images/javascript.svg'
+import nodeIcon from '../images/nodejs.svg'
+import expressIcon from '../images/expressjs.svg'
+import mongoIcon from '../images/mongodb.svg'
+import reactIcon from '../images/react.svg'
+import tailwindIcon from '../images/tailwindcss.svg'
+import sqlIcon from '../images/sql.svg'
 const skillItem = [
+    // {
+    //   imgSrc: '/images/postman.svg',
+    //   label: 'Figma',
+    //   desc: 'Design tool'
+    // },
     {
-      imgSrc: '/images/postman.svg',
-      label: 'Figma',
-      desc: 'Design tool'
-    },
-    {
-      imgSrc: '/images/css3.svg',
+      imgSrc: cssIcon,
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/javascript.svg',
+      imgSrc: jsIcon,
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
+      imgSrc: nodeIcon,
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
-      imgSrc: '/images/expressjs.svg',
+      imgSrc: expressIcon,
       label: 'ExpressJS',
       desc: 'Node Framework'
     },
     {
-      imgSrc: '/images/mongodb.svg',
+      imgSrc: mongoIcon,
       label: 'MongoDB',
       desc: 'Database'
     },
     {
-      imgSrc: '/images/react.svg',
+      imgSrc: reactIcon,
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
+      imgSrc: tailwindIcon,
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
+    {
+      imgSrc: sqlIcon,
+      label: 'SQL',
+      desc: 'Database'
+    }
   ];
 const Skill = () => {
   return (

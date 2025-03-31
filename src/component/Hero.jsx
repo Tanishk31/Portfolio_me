@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonPrimary,ButtonOutline } from './Button'
+import MyPhoto from '../images/Myphoto.png'
 const Hero = () => {
   return (
 
@@ -26,12 +27,12 @@ const Hero = () => {
             </div>
 
             <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                Building Scalable Modern Websites for the Future
+                Love to build new and creative things 
 
             </h2>
             <div className="flex items-center gap-3">
                 <div className='bg-[#38bdf8] rounded-xl p-2 text-black'>
-                    <ButtonPrimary href="https://drive.google.com/file/d/1VkL2FKpY1iR8gmFEzIShXXEOlQGrpIwj/view?usp=drive_link" label="Download CV" icon="download" />
+                    <ButtonPrimary href="https://drive.google.com/file/d/1Mt6f7SGwVTmilMjheoUnAiGx0KNYOfUu/view?usp=sharing" label="Download CV" icon="download" />
                 </div>
 
             {/* <ButtonOutline
@@ -42,10 +43,10 @@ const Hero = () => {
         </div>
        <div className="hidden lg:block">
             <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                <img src="/images/MyPhoto.jpeg"
+                <img src={MyPhoto}
                 width={656}
                 height={800}
-                 alt="Ritika pandit"
+                 alt="Tanishk Chaudhary"
                  className='w-full' />
             </figure>
         </div> 

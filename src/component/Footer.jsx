@@ -26,24 +26,24 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://github.com/RITIKAPANDIT/'
+      href: 'https://github.com/Tanishk31'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/ritika-pandit-a64b32254/'
+      href: 'https://www.linkedin.com/in/tanishk-chaudhary-a6317b25b/'
     },
     {
       label: 'Twitter X',
-      href: 'https://twitter.com/RitikaPanditttt'
-    },
-    {
-      label: 'Instagram',
-      href: 'https://www.instagram.com/'
+      href: 'https://x.com/Tanishk3108'
     },
     // {
-    //   label: 'CodePen',
-    //   href: 'https://codepen.io/codewithsadee'
-    // }
+    //   label: 'Instagram',
+    //   href: 'https://www.instagram.com/'
+    // },
+    {
+      label: 'LeetCode',
+      href: 'https://leetcode.com/u/Tanishk_Chaudhary/'
+    }
   ];                     
 const Footer = () => {
   return (
@@ -55,7 +55,7 @@ const Footer = () => {
                         Let&apos;s work together today!
                     </h2>
                     <ButtonPrimary href="mailto:ritikapandit2203@gmail.com"
-                    label="Start Project"
+                    label="Contact me"
                     icon="chevron_right"
                     classes="reveal-up"
                     ></ButtonPrimary>
@@ -95,16 +95,16 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center justify-between pt-10 mb-8 ">
-                <a href="/"
+                {/* <a href="/"
                 className=' logo reveal-up'>
                     <img src="/images/logo.svg"
                     width={40}
                     height={40}
                      alt="Logo" />
-                </a>
-                <p className="text-zinc-500 text-sm reveal-up">
-                    &copy; 2024 <span className=''>codewithsadee</span>
-                </p>
+                </a> */}
+                {/* <p className="text-zinc-500 text-sm reveal-up">
+                    &copy; 2024 <span className=''>tanishk</span>
+                </p> */}
             </div>
         </div>
     </footer>
