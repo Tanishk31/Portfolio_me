@@ -40,7 +40,7 @@ const works = [
       imgSrc: portfolio,
       title: 'Personal portfolio',
       tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://github.com/Tanishk31/Portfolio_me'
     },
   ];
 const Work = () => {
