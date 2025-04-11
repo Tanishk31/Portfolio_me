@@ -1,5 +1,6 @@
 //COMPONENTS
 import ProjectCard from './ProjectCard';
+import portfolio from '../images/Portfolio.jpg'
 import visitor from '../images/visitor.jpg'
 import realEstate from '../images/realEstate.jpg'
 
@@ -36,7 +37,7 @@ const works = [
     //   projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
     // },
     {
-      imgSrc: '/images/project-6.jpg',
+      imgSrc: portfolio,
       title: 'Personal portfolio',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
