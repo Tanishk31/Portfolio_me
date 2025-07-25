@@ -15,17 +15,17 @@ const Hero = () => {
                     <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                         <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
                     </span>
-                    Available for work
+                    Available for Work
                 </div>
             </div>
 
             <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                Love to build new and creative things 
+                Love to build new and creative things together
 
             </h2>
             <div className="flex items-center gap-3">
                 <div className='bg-[#38bdf8] rounded-xl p-2 text-black'>
-                    <ButtonPrimary href="https://drive.google.com/file/d/1XAcU6zgNM6C0iVvRR-9CsUrfK5_1yJ2O/view?usp=sharing" label="Download CV" icon="download" />
+                    <ButtonPrimary href="https://drive.google.com/file/d/1iKCqItKuvn8MKgbN-9T8-DryGrrSnWRY/view?usp=sharing" label="Download CV" icon="download" />
                 </div>
 
             {/* <ButtonOutline
