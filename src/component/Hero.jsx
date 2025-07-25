@@ -1,6 +1,6 @@
 import React from 'react'
 import { ButtonPrimary,ButtonOutline } from './Button'
-import MyPhoto from '../images/Myphoto1.png'
+import MyPhoto from '../images/Myphoto.png'
 const Hero = () => {
   return (
 
