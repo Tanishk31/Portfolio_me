@@ -25,7 +25,7 @@ const Hero = () => {
             </h2>
             <div className="flex items-center gap-3">
                 <div className='bg-[#38bdf8] rounded-xl p-2 text-black'>
-                    <ButtonPrimary href="https://drive.google.com/file/d/1Mt6f7SGwVTmilMjheoUnAiGx0KNYOfUu/view?usp=sharing" label="Download CV" icon="download" />
+                    <ButtonPrimary href="https://drive.google.com/file/d/1XAcU6zgNM6C0iVvRR-9CsUrfK5_1yJ2O/view?usp=sharing" label="Download CV" icon="download" />
                 </div>
 
             {/* <ButtonOutline

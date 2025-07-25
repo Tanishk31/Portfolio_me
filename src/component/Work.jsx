@@ -10,7 +10,7 @@ const works = [
       imgSrc: visitor,
       title: 'Visitor Management System',
       tags: ['API', 'React', 'Node.js', 'mongoDB'],
-      projectLink: 'https://github.com/Tanishk31/visiting_management'
+      projectLink: 'https://github.com/Tanishk31/Visiting_Karo'
     },
     // {
     //   imgSrc: '/images/project-2.jpg',

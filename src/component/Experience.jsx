@@ -2,18 +2,18 @@ import React from 'react'
 
 const experiences = [
   {
-    company: "BlueStock Fintech",
+    company: "Accenture",
     position: "Software Developer Intern",
     duration: "Dec 2024 - Jan 2023",
     description: "Developed responsive web applications and implemented key features using modern web technologies. Collaborated with team members to deliver high-quality software solutions.",
-    skills: ["HTML", "CSS", "JavaScript"]
+    skills: ["HTML", "CSS", "JavaScript", "Nodejs", "MongoDB"]
   },
   {
     company: "Ezlearn",
     position: "Software Developer Intern",
     duration: "Feb 2024 - Mar 2023",
     description: "Worked on developing educational platform features and optimizing user interfaces. Implemented student progress tracking system and interactive learning modules.",
-    skills: ["React", "Node.js", "MongoDB"]
+    skills: ["Python", "SQL", "AWS"]
   }
 ];
 

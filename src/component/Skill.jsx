@@ -1,6 +1,12 @@
 import React from 'react'
 import SkillCard from './SkillCard';
-import cssIcon from '../images/css3.svg'
+import cppIcon from '../images/cppIcon.png'
+import javaIcon from '../images/javaIcon.png'
+import pythonIcon from '../images/pythonIcon.png'
+import numpyIcon from '../images/numpyIcon.png'
+import pandasIcon from '../images/pandasIcon.png'
+import AWSIcon from '../images/AWSIcon.png'
+import DockerIcon from '../images/dockerIcon.png'
 import jsIcon from '../images/javascript.svg'
 import nodeIcon from '../images/nodejs.svg'
 import expressIcon from '../images/expressjs.svg'
@@ -15,9 +21,19 @@ const skillItem = [
     //   desc: 'Design tool'
     // },
     {
-      imgSrc: cssIcon,
-      label: 'CSS',
-      desc: 'User Interface'
+      imgSrc: cppIcon,
+      label: 'C++',
+      desc: 'Programming Language'
+    },
+    {
+      imgSrc: javaIcon,
+      label: 'Java',
+      desc: 'Programming Language'
+    },
+    {
+      imgSrc: pythonIcon,
+      label: 'Python',
+      desc: 'Programming Language'
     },
     {
       imgSrc: jsIcon,
@@ -30,14 +46,14 @@ const skillItem = [
       desc: 'Web Server'
     },
     {
-      imgSrc: expressIcon,
-      label: 'ExpressJS',
-      desc: 'Node Framework'
+      imgSrc: numpyIcon,
+      label: 'Numpy',
+      desc: 'Python Library'
     },
     {
-      imgSrc: mongoIcon,
-      label: 'MongoDB',
-      desc: 'Database'
+      imgSrc: pandasIcon,
+      label: 'Pandas',
+      desc: 'Python Library'
     },
     {
       imgSrc: reactIcon,
@@ -45,14 +61,22 @@ const skillItem = [
       desc: 'Framework'
     },
     {
-      imgSrc: tailwindIcon,
-      label: 'TailwindCSS',
-      desc: 'User Interface'
+      imgSrc: mongoIcon,
+      label: 'MongoDB',
+      desc: 'Database'
     },
     {
       imgSrc: sqlIcon,
       label: 'SQL',
       desc: 'Database'
+    },{
+      imgSrc: AWSIcon,
+      label: 'AWS',
+      desc: 'Cloud Computing'
+    },{
+      imgSrc: DockerIcon,
+      label: 'Docker',
+      desc: 'Devops'
     }
   ];
 const Skill = () => {
